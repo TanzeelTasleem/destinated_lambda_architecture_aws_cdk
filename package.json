@@ -21,7 +21,17 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "1.75.0",
+    "@aws-cdk/aws-events": "1.75.0",
+    "@aws-cdk/aws-events-targets": "1.75.0",
+    "@aws-cdk/aws-iam": "1.75.0",
+    "@aws-cdk/aws-lambda": "1.75.0",
+    "@aws-cdk/aws-lambda-destinations": "1.75.0",
+    "@aws-cdk/aws-sns": "1.75.0",
+    "@aws-cdk/aws-sns-subscriptions": "1.75.0",
     "@aws-cdk/core": "1.75.0",
+    "@aws-solutions-constructs/aws-events-rule-lambda": "1.75.0",
+    "@aws-solutions-constructs/aws-sns-lambda": "1.75.0",
     "source-map-support": "^0.5.16"
   }
 }
